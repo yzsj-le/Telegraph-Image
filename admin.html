@@ -25,7 +25,7 @@
       backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.5s ease, box-shadow 0.5s ease;
+      transition: background-color 0.5  ease, box-shadow 0.5  ease;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
     }
@@ -39,7 +39,7 @@
       font-size: 1.8em;
       font-weight: bold;
       cursor: pointer;
-      transition: color 0.3s ease;
+      transition: color 0.3  ease;
       color: #333;
     }
 
@@ -61,14 +61,14 @@
       padding: 5px 10px;
       border-radius: 10px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      transition: background-color 0.3  ease, box-shadow 0.3  ease;
       color: #333;
     }
 
     .stats .fa-database {
       margin-right: 10px;
       font-size: 1.5em;
-      transition: color 0.3s ease;
+      transition: color 0.3  ease;
       color: inherit;
     }
 
@@ -91,7 +91,7 @@
     .header-content .actions i {
       font-size: 1.5em;
       cursor: pointer;
-      transition: color 0.3s, transform 0.3s;
+      transition: color 0.3 , transform 0.3 ;
       color: #333;
     }
 
@@ -124,7 +124,7 @@
       font-size: 1.2em;
       border: none;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      transition: width 0.3s;
+      transition: width 0.3 ;
     }
 
     .search-card .el-input__inner:focus {
@@ -154,7 +154,7 @@
       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       position: relative;
-      transition: transform 0.3s ease;
+      transition: transform 0.3  ease;
     }
 
     .el-card:hover {
@@ -165,7 +165,7 @@
       width: 100%;
       height: 200px;
       object-fit: cover;
-      transition: opacity 0.3s ease;
+      transition: opacity 0.3  ease;
     }
 
     .el-image:hover {
@@ -198,7 +198,7 @@
       justify-content: center;
       background: rgba(0, 0, 0, 0.6);
       opacity: 0;
-      transition: opacity 0.3s ease;
+      transition: opacity 0.3  ease;
       pointer-events: none;
     }
 
@@ -233,7 +233,7 @@
     <el-container>
       <el-header>
         <div class="header-content">
-          <span class="title" @click="refreshDashboard">Dashboard</span>
+          <span class="title" @click="refreshDashboard">仪表板</span>
           <div class="search-card">
             <el-input v-model="search" size="mini" placeholder="输入关键字搜索"></el-input>
           </div>
